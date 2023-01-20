@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class HotelReservationTest {
-	  @Test
+	 @Test
 	    public void givenHotelNameShouldBePassed() {
 	        HotelReservation hotelReservation = new HotelReservation();
 
@@ -20,5 +20,11 @@ public class HotelReservationTest {
 	    public void toFindTheCheapestHotel() {
 	        HotelReservation hotelReservation = new HotelReservation();
 	        hotelReservation.getCheapestHotel();
+	    }
+
+	    @Test
+	    public void toFindTheCheapestHotelForGivenDate() {
+	        HotelReservation cheapHotel = new HotelReservation();
+	        cheapHotel.getCheapestHotelForGivenDate();
 	    }
 }

@@ -1,7 +1,7 @@
 package com.bridgelabz.day26.UC_Day26_Hotel_Reservation;
 
 public class Hotel {
-	  public String hotelName;
+	 public String hotelName;
 	    public int weekdayRateForRegular;
 	    public int weekendRateForRegular;
 	    public int weekdayRateForRewarder;

@@ -23,7 +23,7 @@ public class HotelReservation {
 
 	    public void getCheapestHotel(){
 	        int LakewoodRate = 110; int BridgewoodRate = 160; int Ridgewood = 220;
-	        int cheapestHotel = (LakewoodRate>BridgewoodRate) ? (Math.max(LakewoodRate, Ridgewood)) : (LakewoodRate) ;
+	        int cheapestHotel = (LakewoodRate>BridgewoodRate) ? (Math.max(LakewoodRate, Ridgewood)) : (Ridgewood) ;
 	        System.out.println("The cheapest Hotel Rate is " +cheapestHotel);
 	    }
 
@@ -31,7 +31,6 @@ public class HotelReservation {
 	        getMinPriceHotel();
 	        getCheapestHotel();
 	    }
-
 	    public static void main(String[] args) {
 	        System.out.println("Welcome to Hotel Reservation Program");
 	        HotelReservation hotelReservation = new HotelReservation();
